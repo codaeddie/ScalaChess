@@ -12,6 +12,23 @@ This project is written using TDDD - TODO Driven Design.
 
 Each Movement use a Piece which contains an Engine with the rules of how it can move through the board, and also if each move end up in a Check or Checkmate.
 
+First we check if the movement of the piece is correct
+```
+isValidMovementRule
+```
+Then we check if the path from where we move it's clear
+```
+isValidPathRule
+```
+Finally we check if at the end of the movement we put the opponent in check.
+```
+isCheckRule
+```
+
+In each movement we always check if we're in check, and we do we cannot end up our movement keeping in that way.
+```
+inCheckRule
+```
 
 
 ## How to run

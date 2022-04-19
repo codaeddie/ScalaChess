@@ -2,7 +2,7 @@
 ## Chess GUI written in Scala
 
 
-# ![My image](img/chess design.png)
+# ![My image](https://github.com/codaeddie/ScalaChess/blob/9552149d90875d12cd3c48c5bca7c23bc2177b03/img/chess%20design.png)
 This is being written as a Scala learning exercise. I am particularly interested in
 suggestions on how the code can be made more functional and generally adopt a more
 Scala orientated approach instead of the current Javaesque style.

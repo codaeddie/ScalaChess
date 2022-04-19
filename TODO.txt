@@ -1,0 +1,22 @@
+
+- [x] Create Repo 
+- [ ] Push Code from Local Machine into Repo
+- [ ] Get running Scala
+- [ ] Add stalemate detection
+- [ ] MovePieceTaking
+- [ ] PromoteTaking
+- This will allow the condition logic in Configuration.applyMove in the MovePiece case to be eliminated.
+The Promote case can also be simplified by not calling applyMove to determine if a piece was taken.
+This is aimed at adding support to StandardMoveExplorer for providing a list of all possible legal moves instead of
+using getBasicMoves which is incomplete because it does not include castling.
+
+- [ ] Add scalafmt
+- [ ] Add player that prefers to fork
+- [ ] Add player that prefers taking pieces nearest the king
+- [ ] Replace rankers by labellers: For each move label the move
+- [ ] Search the tree: Start by following position where the opponent has only a few moves.
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
